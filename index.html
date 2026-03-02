@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - 梁嘉轩</title>
+    <!-- 引入 Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 全局配置极简审美字体族 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 leading-relaxed antialiased">
+
+    <!-- 顶层主容器，限制最大宽度及设置两侧留白边距 -->
+    <div class="max-w-4xl mx-auto px-6 py-16 md:py-24 selection:bg-blue-600 selection:text-white">
+        
+        <!-- ================== HEAD (Hero Section) ================== -->
+        <header id="hero-section" class="mb-20">
+            <!-- 动态注入 Hero 模板 -->
+        </header>
+
+        <hr class="border-gray-200 mb-16">
+
+        <!-- ================== BODY: Projects ======================= -->
+        <section id="projects-section" class="mb-20">
+            <h2 class="text-2xl font-bold mb-8 tracking-tight text-gray-900">Project Deployments</h2>
+            <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- 动态注入项目卡片队列 -->
+            </div>
+        </section>
+
+        <!-- ================== BODY: Awards ========================= -->
+        <section id="awards-section" class="mb-20">
+            <h2 class="text-2xl font-bold mb-8 tracking-tight text-gray-900">Honors & Awards</h2>
+            <div id="awards-list" class="space-y-6">
+                 <!-- 动态注入奖项列表队列 -->
+            </div>
+        </section>
+
+        <hr class="border-gray-200 mb-8">
+
+        <!-- ================== FOOTER =============================== -->
+        <footer id="footer-section" class="text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center">
+             <!-- 动态注入页脚模板 -->
+        </footer>
+
+    </div>
+
+    <!-- 核心业务逻辑，确保按顺序先引入数据再执行渲染 -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
