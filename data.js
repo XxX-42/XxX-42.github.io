@@ -3,10 +3,10 @@ const resumeData = {
     name: "梁嘉轩",
     title: "数学建模指引 & 资深架构研发",
     email: "lorrnine@gmail.com",
-    github: "https://github.com/lorrnine", // You can update this link later
+    github: "https://xxx-42.github.io/", // You can update this link later
     phone: "17748035450"
   },
-  
+
   projects: [
     {
       title: "VIP 智能人像识别与目标监控系统",
