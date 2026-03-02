@@ -19,7 +19,7 @@ const resumeData = {
         "开发离线提征模块，将 VIP 特征序列化存储实现毫秒级快速遍历；封装可交互客户端并支持多线程异步渲染防止 UI 线程阻塞。",
         "通过置信度和 NMS 阈值约束消除高频重叠导致的误报；在普通 CPU/单卡 GPU 环境下，多屏推拉稳定在 30 帧以上，复杂背景特征匹配精准匹配延迟 <30ms，准确率达 95% 以上。"
       ],
-      githubLink: "#" // Optional
+      githubLink: "https://github.com/XxX-42/YOLO" // Optional
     },
     {
       title: "基于 SRGAN 的图像与视频超分辨率重建平台",
@@ -32,7 +32,7 @@ const resumeData = {
         "独立开发跨平台可视化桌面终端，支持原图/双三次插值/SRGAN 的多线程平行对比渲染；开发视频独立编解码解析引擎同步完成模型端到端落地。",
         "优化自适应 DataLoader 和数据流管线，利用自定义批次预处理解决长耗时显存瓶颈。推理速度优化至 80ms/帧级别，测试集中 PSNR 达 28.5dB。"
       ],
-      githubLink: "#" // Optional
+      githubLink: "https://github.com/XxX-42/CUITSRGAN" // Optional
     }
   ],
 
